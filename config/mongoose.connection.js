@@ -4,7 +4,7 @@ const config = require("config");
 const dbgr = require("debug")("development:mongoose");
 
 mongoose
-.connect(`${config.get("MONGODB_URI")}/scatch`, {
+.connect(`${config.get("MONGODB_URI")}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
