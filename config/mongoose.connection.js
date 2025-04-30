@@ -4,9 +4,10 @@ const config = require("config");
 const dbgr = require("debug")("development:mongoose");
 
 mongoose
-.connect(`${config.get("MONGODB_URI")}`, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+.connect(`${config.get("MONGODB_URI")}/scatch`, {
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
+    // serverSelectionTimeoutMS: 15000, // increase from default 10s
 })
 .then(function(){
     dbgr("connected");
