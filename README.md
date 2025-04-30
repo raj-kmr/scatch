@@ -1,8 +1,8 @@
-Backend Learning Project with Node.js and MongoDB
+### Backend Learning Project with Node.js and MongoDB
 
 This project is designed to help me learn and practice backend development using Node.js and MongoDB. It includes basic features such as user authentication, product management, and data storage in a MongoDB database. This is a learning exercise to get familiar with backend concepts like routing, middleware, and database integration.
 
-Features
+## Features
 
 - User Authentication: Allows users to register and log in to the platform.
 - Product Management: Users can view products, add products to their cart, and update their profile.
@@ -10,7 +10,7 @@ Features
 - Flash Messages: Displays success or error messages to users using connect-flash.
 - MongoDB Database: Stores all user and product data in a MongoDB database.
 
-Tech Stack
+## Tech Stack
 
 - Node.js: JavaScript runtime used for the backend server.
 - Express.js: Web framework for building APIs and handling routes.
@@ -20,9 +20,9 @@ Tech Stack
 - Connect-Flash: Middleware for storing and displaying flash messages.
 - Express-session: Middleware for managing user sessions.
 
-Setup
+## Setup
 
-Prerequisites
+# Prerequisites
 
 Before you start, ensure that the following tools are installed on your system:
 
@@ -32,18 +32,18 @@ Before you start, ensure that the following tools are installed on your system:
 
 - MongoDB: You’ll need a MongoDB database. You can either set up a local MongoDB instance or use MongoDB Atlas for a cloud-hosted database.
 
-Clone the Repository
+## Clone the Repository
 
 Clone the project repository to your local machine:
 git clone https://github.com/yourusername/backend-learning-nodejs-mongodb.git
 cd backend-learning-nodejs-mongodb
 
-Install Dependencies
+## Install Dependencies
 
 Install the required dependencies using npm:
 npm install
 
-Set Up Environment Variables
+## Set Up Environment Variables
 
 Create a .env file in the root directory of the project and add the following environment variables:
 
@@ -53,14 +53,14 @@ EXPRESS_SESSION_SECRET=your_secret_key
 - MONGODB_URI: This is your MongoDB connection string (for local MongoDB or MongoDB Atlas).
 - EXPRESS_SESSION_SECRET: A secret key used for securing the session.
 
-Run the Application
+## Run the Application
 
 Once everything is set up, you can start the server by running:
 npm start
 
 The application will start running on http://localhost:3000.
 
-Usage
+##  Usage
 
 - Register and log in as a user.
 - View products and add them to your cart.
