@@ -35,7 +35,7 @@ Before you start, ensure that the following tools are installed on your system:
 ## Clone the Repository
 
 Clone the project repository to your local machine:
-git clone https://github.com/yourusername/backend-learning-nodejs-mongodb.git
+git clone https://github.com/raj-kmr/scatch.git
 cd backend-learning-nodejs-mongodb
 
 ## Install Dependencies
